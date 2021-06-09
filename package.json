@@ -1,16 +1,14 @@
 {
   "name": "github-trending-scraper",
-  "version": "0.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "lanly-dev",
   "license": "ISC",
   "dependencies": {
-    "playwright": "^0.9.24",
-    "puppeteer": "^2.0.0"
+    "playwright": "^1.12.0",
+    "puppeteer": "^10.0.0",
+    "puppeteer-core": "^10.0.0"
   }
 }
